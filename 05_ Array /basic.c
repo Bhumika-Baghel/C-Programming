@@ -1,21 +1,19 @@
 #include <stdio.h>
 int main()
 {
-    int arr[5];
+    int a[5];
 
-    printf("Enter 5 numbers:");
+    a[0] = 10;
+    a[1] = 20;
+    a[2] = 30;
+    a[3] = 40;
+    a[4] = 50;
 
-    for(int i = 0; i < 5; i++)
-    {
-        scanf("%d", &arr[i]);
-    }
-
-    printf("Array elements are:");
-
-    for(int i = 0; i < 5; i++)
-    {
-        printf("%d ", arr[i]);
-    }
+    printf("%d\n", a[0]);
+    printf("%d\n", a[1]);
+    printf("%d\n", a[2]);
+    printf("%d\n", a[3]);
+    printf("%d\n", a[4]);
 
     return 0;
 }
