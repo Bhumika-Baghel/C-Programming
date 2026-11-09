@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
     int a[100], n, i, pos;
